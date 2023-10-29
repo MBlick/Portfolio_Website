@@ -22,3 +22,11 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## How to install 
+vue create portfolio-website
+cd portfolio-website
+
+npm install bootstrap
+npm install @popperjs/core
+npm i bootstrap-icons
