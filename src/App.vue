@@ -1,15 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="margin">
+    <HomeNavbar />
+    <HomeHome />
+    <HomeAboutMe />
+    <HomeProjects />
+    <HomeContact />
+    <HomeFooter />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomeNavbar from './components/HomeNavbar.vue'
+import HomeHome from './components/HomeHome.vue'
+import HomeAboutMe from './components/HomeAboutMe.vue'
+import HomeProjects from './components/HomeProjects.vue'
+import HomeContact from './components/HomeContact.vue'
+import HomeFooter from './components/HomeFooter.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HomeNavbar,
+    HomeHome,
+    HomeAboutMe,
+    HomeProjects,
+    HomeContact,
+    HomeFooter,
   }
 }
 </script>
@@ -21,6 +37,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-image: url("assets/pexels.jpg");
+}
+
+.margin {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 </style>
