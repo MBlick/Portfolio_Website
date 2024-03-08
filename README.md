@@ -2,7 +2,8 @@
 
 ## Project setup
 ```
-npm install
+npm install --save bootstrap
+npm install --save @popperjs/core
 ```
 
 ### Compiles and hot-reloads for development
