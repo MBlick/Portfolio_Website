@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div data-bs-spy="scroll">
     <HomeHome />
     <HomeAbout />
-    <HomeResume />
     <HomeProjects />
+    <HomeResume />
   </div>
 </template>
 
