@@ -28,7 +28,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .about {
-  background-color: aquamarine;
+  background-color: #354f52;
   align-content: center;
 }
 /* This sets the container height to the current display height */

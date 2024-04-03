@@ -1,5 +1,5 @@
 <template>
-  <nav id="navbar" class="navbar bg-dark navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+  <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary fixed-top"> <!-- navbar-dark bg-dark -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-0 mb-lg-0 nav-pills">
         <li class="nav-item nav-link">
@@ -9,10 +9,10 @@
           <a class="nav-link" aria-current="page" href="#about">About</a>
         </li>
         <li class="nav-item nav-link flex-column">
-          <a class="nav-link" aria-current="page" href="#projects">Projects</a>
+          <a class="nav-link" aria-current="page" href="#resume">Resume</a>
         </li>
         <li class="nav-item nav-link flex-column">
-          <a class="nav-link" aria-current="page" href="#resume">Resume</a>
+          <a class="nav-link" aria-current="page" href="#projects">Projects</a>
         </li>
       </ul>
     </div>
@@ -60,10 +60,9 @@ export default {
 .news {
   padding-top: 1%;
   padding-bottom: 1%;
-  background-color: white;
 }
 .home {
-  background-color: blueviolet;
+  background-color: #52796f;
   align-content: center;
 }
 .text_name {
@@ -71,6 +70,10 @@ export default {
 }
 .text_student {
   font-size: 2rem;
+}
+.navbar {
+  padding-top: 0%;
+  padding-bottom: 0%;
 }
 /* This sets the container height to the current display height */
 .container-fluid {

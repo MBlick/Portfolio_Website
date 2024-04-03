@@ -2,8 +2,8 @@
   <div data-bs-spy="scroll">
     <HomeHome />
     <HomeAbout />
-    <HomeProjects />
     <HomeResume />
+    <HomeProjects />
   </div>
 </template>
 

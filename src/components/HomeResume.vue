@@ -58,7 +58,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .resume {
-  background-color: brown;
+  background-color: #52796f;
 }
 /* This sets the container height to the current display height */
 .container-fluid {
