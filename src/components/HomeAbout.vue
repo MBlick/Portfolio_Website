@@ -5,12 +5,17 @@
         <h1 class="text-start fw-bold">ABOUT</h1>
         <p class="text_about text-start">
           I'm an electrical planner EFZ currently studiyng Electrical
-          Engineering and Information Technology in my fifth semester at
-          Lucerne University of Applied Sciences and Arts in Horw.
+          Engineering and Information Technology in my fifth semester at Lucerne
+          University of Applied Sciences and Arts in Horw.
         </p>
       </div>
+      <!--  -->
       <div class="col">
-        <img class="image_me" src="../assets/Image-of-myself.png" alt="image of myself">
+        <img
+          class="image_me"
+          src="../assets/Image-of-myself.png"
+          alt="image of myself"
+        />
       </div>
     </div>
   </div>
@@ -18,11 +23,11 @@
 
 <script>
 export default {
-  name: 'HomeAbout',
+  name: "HomeAbout",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -33,7 +38,7 @@ export default {
 }
 /* This sets the container height to the current display height */
 .container-fluid {
-  height: 100vh; 
+  height: 100vh;
 }
 .text_about {
   font-size: 2em;
@@ -41,6 +46,4 @@ export default {
 .image_me {
   max-width: 55%;
 }
-
-
 </style>
