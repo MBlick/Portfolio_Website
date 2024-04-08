@@ -1,4 +1,4 @@
-# Portfolio_Website
+# My portfolio website
 
 ## Project setup
 ```
@@ -6,27 +6,14 @@ npm install --save bootstrap
 npm install --save @popperjs/core
 ```
 
-### Compiles and hot-reloads for development
+## Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-## How to install 
-vue create portfolio-website
-cd portfolio-website
+## How to create a new project 
+vue create project
+cd project
 
 npm install bootstrap
 npm install @popperjs/core
