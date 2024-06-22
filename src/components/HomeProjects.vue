@@ -162,7 +162,7 @@
                   The project was approached in a team of seven members which
                   interdisciplinary consists of the three departments electrical
                   engineering, mechanical engineering and software engineering.
-                  The documentation (in German) can be downloaded and read at
+                  The report (in German) can be downloaded and read at
                   the following link:
                 </p>
                 <button
@@ -179,7 +179,7 @@
                     border: #f67280;
                   "
                 >
-                  Documentation
+                  Report
                 </button>
               </div>
             </div>
@@ -215,7 +215,7 @@
                   hurdles and even won the final contest, where all 26 teams
                   competed against each other. Furthermore, it has to be noted
                   that our team has achieved the best grade as only team of them
-                  26 in both project units. As before, the documentation (in
+                  26 in both project units. As before, the report (in
                   German) can be downloaded and read at the following link:
                 </p>
                 <button
@@ -232,7 +232,7 @@
                     border: #f67280;
                   "
                 >
-                  Documentation
+                  Report
                 </button>
               </div>
             </div>

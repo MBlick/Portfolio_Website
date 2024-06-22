@@ -1,6 +1,6 @@
 <template>
-<!-- navbar-dark bg-dark -->
-  <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+<!-- navbar-dark -->
+  <nav id="navbar" class="navbar custom-navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-0 mb-lg-0 nav-pills">
         <li class="nav-item nav-link">
@@ -84,6 +84,9 @@ export default {
 .navbar {
   padding-top: 0%;
   padding-bottom: 0%;
+}
+.custom-navbar {
+  background-color: #1C3144 !important;
 }
 /* This sets the container height to the current display height */
 .container-fluid {

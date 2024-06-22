@@ -5,7 +5,7 @@
         <h1 class="text-start fw-bold">ABOUT</h1>
         <p class="text_about text-start">
           I'm an electrical planner EFZ currently studiyng Electrical
-          Engineering and Information Technology in my fifth semester at Lucerne
+          Engineering and Information Technology in my seventh semester at Lucerne
           University of Applied Sciences and Arts in Horw.
         </p>
       </div>
