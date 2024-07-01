@@ -12,8 +12,8 @@
       <!--  -->
       <div class="col d-flex justify-content-center align-items-center full-height">
         <img
-          class="image_me w-100"
-          src="../assets/Image-of-myself.png"
+          class="image_me m-5 w-100"
+          src="../assets/image-of-myself.png"
           alt="image of myself"
         />
       </div>
@@ -44,9 +44,9 @@ export default {
   max-width: 55%;
 }
 .pt-10 {
-  padding-top: 10rem !important; /* 112px */
+  padding-top: 20rem !important;
 }
 .pb-10 {
-  padding-bottom: 10rem !important; /* 112px */
+  padding-bottom: 20rem !important;
 }
 </style>

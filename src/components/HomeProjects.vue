@@ -4,9 +4,9 @@
     class="projects p-5 container-fluid"
     data-bs-target="#projects"
   >
-    <div class="row pt-5">
+    <div class="row pt-5 pb-5">
       <div class="col">
-        <h1 class="pb-3 fw-bold">JOB</h1>
+        <h1 class="pb-5 fw-bold">WORK</h1>
         <div class="accordion" id="accordionJob">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingELP">
@@ -131,7 +131,7 @@
       </div>
       <!-- paragraph with university accordion -->
       <div class="col">
-        <h1 class="pb-3 fw-bold">UNIVERSITY</h1>
+        <h1 class="pb-5 fw-bold">UNIVERSITY</h1>
         <div class="accordion" id="accordionUniversity">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPREN1">
@@ -168,15 +168,15 @@
                 <button
                   @click="
                     openFileInNewWindow(
-                      'Schlussbericht_PREN_1_Team_07_06.01.2023.pdf'
+                      'Schlussbericht_PREN_1_Team_07_2023-01-06.pdf'
                     )
                   "
                   type="button"
                   class="btn btn-primary"
                   style="
-                    background-color: #f67280;
+                    background-color: #eb5e28;
                     color: white;
-                    border: #f67280;
+                    border: #eb5e28;
                   "
                 >
                   Report
@@ -221,15 +221,15 @@
                 <button
                   @click="
                     openFileInNewWindow(
-                      'Schlussbericht_PREN_2_Team_07_10.06.2023.pdf'
+                      'Schlussbericht_PREN_2_Team_07_2023-06-10.pdf'
                     )
                   "
                   type="button"
                   class="btn btn-primary"
                   style="
-                    background-color: #f67280;
+                    background-color: #eb5e28;
                     color: white;
-                    border: #f67280;
+                    border: #eb5e28;
                   "
                 >
                   Report
@@ -271,15 +271,15 @@
                 <button
                   @click="
                     openFileInNewWindow(
-                      'Dokumentation_ELO2_Gruppe_9_Rauchmelder.pdf'
+                      'Dokumentation_ELO2_Gruppe_9_Rauchmelder_2023-12-02.pdf'
                     )
                   "
                   type="button"
                   class="btn btn-primary"
                   style="
-                    background-color: #f67280;
+                    background-color: #eb5e28;
                     color: white;
-                    border: #f67280;
+                    border: #eb5e28;
                   "
                 >
                   Report
@@ -321,15 +321,15 @@
                 <button
                   @click="
                     openFileInNewWindow(
-                      'Dokumentation_AE_Gruppe_Orange_Rogowskispule.pdf'
+                      'Dokumentation_AE_Gruppe_Orange_Rogowskispule_2023-12-27.pdf'
                     )
                   "
                   type="button"
                   class="btn btn-primary"
                   style="
-                    background-color: #f67280;
+                    background-color: #eb5e28;
                     color: white;
-                    border: #f67280;
+                    border: #eb5e28;
                   "
                 >
                   Report
@@ -365,15 +365,15 @@
                 <button
                   @click="
                     openFileInNewWindow(
-                      'Report_ENG251_Function Generator.pdf'
+                      'Report_ENG251_Function_Generator_2024-06-07.pdf'
                     )
                   "
                   type="button"
                   class="btn btn-primary"
                   style="
-                    background-color: #f67280;
+                    background-color: #eb5e28;
                     color: white;
-                    border: #f67280;
+                    border: #eb5e28;
                   "
                 >
                   Report
@@ -385,7 +385,7 @@
       </div>
       <!-- paragraph with private accordion -->
       <div class="col">
-        <h1 class="pb-3 fw-bold">PRIVATE</h1>
+        <h1 class="pb-5 fw-bold">PRIVATE</h1>
         <div class="accordion" id="accordionPrivate">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPortfolio">

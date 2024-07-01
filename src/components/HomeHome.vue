@@ -51,7 +51,7 @@
       <!--  -->
       <div class="col-7 pt-5 d-flex justify-content-center align-items-center full-height text-start">
         <img
-          class="image_circuit p-5 w-100"
+          class="image_circuit m-5 w-75"
           src="../assets/pseudo-circuit.png"
           alt="image of a pseudo circuit"
         />
@@ -90,12 +90,22 @@ export default {
   padding-bottom: 0%;
 }
 .custom-navbar {
-  background-color: #1C3144 !important;
+  background-color: #252422 !important;
+}
+.nav-pills .nav-link.active {
+  background-color: #eb5e28 !important;
+  color: white !important;
+}
+.nav-pills .nav-link {
+  color: white !important;
+}
+.nav-pills .nav-link:hover {
+  color: #eb5e28 !important;
 }
 .pt-10 {
-  padding-top: 10rem !important; /* 112px */
+  padding-top: 15rem !important;
 }
 .pb-10 {
-  padding-bottom: 10rem !important;
+  padding-bottom: 15rem !important;
 }
 </style>
