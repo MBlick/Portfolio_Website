@@ -11,11 +11,7 @@
       </div>
       <!--  -->
       <div class="col d-flex justify-content-center align-items-center full-height">
-        <img
-          class="image_me m-5 w-100"
-          src="../assets/image-of-myself.png"
-          alt="image of myself"
-        />
+        <img class="image_me m-5 w-100" src="../assets/image-of-myself.png" alt="image of myself" />
       </div>
     </div>
   </div>
@@ -36,16 +32,23 @@ export default {
   background-color: #354f52;
   align-content: center;
 }
-/* This sets the container height to the current display height */
+
+.text-start {
+  font-size: 3rem;
+}
+
 .text_about {
   font-size: 2em;
 }
+
 .image_me {
   max-width: 55%;
 }
+
 .pt-10 {
   padding-top: 20rem !important;
 }
+
 .pb-10 {
   padding-bottom: 20rem !important;
 }

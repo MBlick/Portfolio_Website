@@ -1,32 +1,18 @@
 <template>
-  <div
-    id="projects"
-    class="projects p-5 container-fluid"
-    data-bs-target="#projects"
-  >
+  <div id="projects" class="projects p-5 container-fluid" data-bs-target="#projects">
     <div class="row pt-5 pb-5">
       <div class="col">
         <h1 class="pb-5 fw-bold">WORK</h1>
         <div class="accordion" id="accordionJob">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingELP">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseELP"
-                aria-expanded="true"
-                aria-controls="collapseELP"
-              >
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseELP"
+                aria-expanded="true" aria-controls="collapseELP">
                 <strong>Electrical Planning</strong>
               </button>
             </h2>
-            <div
-              id="collapseELP"
-              class="accordion-collapse collapse show"
-              aria-labelledby="headingELP"
-              data-bs-parent="#accordionJob"
-            >
+            <div id="collapseELP" class="accordion-collapse collapse show" aria-labelledby="headingELP"
+              data-bs-parent="#accordionJob">
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   As an electrical planner, my job was it to create electrical
@@ -36,44 +22,25 @@
                   HT-Infraserv AG I've worked on several interesting projects. A
                   few can be seen in the following list:
                 </p>
-                <a
-                  href="https://www.google.ch/maps/place/Hochstrasser+AG+Kaffeer%C3%B6sterei/@47.0488536,8.2694026,106m/data=!3m1!1e3!4m6!3m5!1s0x478ffb3911826457:0x91fc009c32b76518!8m2!3d47.0489444!4d8.2696281!16s%2Fg%2F1td1259t?entry=ttu"
-                  target="_blank"
-                  >Hochstrasser AG - New coffee roastery in Lucerne</a
-                ><br />
-                <a
-                  href="https://www.google.ch/maps/place/Aarau/@47.3911964,8.0503103,248m/data=!3m1!1e3!4m6!3m5!1s0x47903bf01e450701:0x1f73bd9ca50dce70!8m2!3d47.3913661!4d8.0512862!16s%2Fm%2F0r3t4xh?entry=ttu"
-                  target="_blank"
-                  >Aarau railroad station - Renewal of the lighting</a
-                ><br />
-                <a
-                  href="https://www.hp-arch.ch/werkverzeichnis?c=Neubau_Doppelturnhalle_in_Schenkon"
-                  target="_blank"
-                  >Village of Schenkon - New double sports hall</a
-                ><br />
+                <a href="https://www.google.ch/maps/place/Hochstrasser+AG+Kaffeer%C3%B6sterei/@47.0488536,8.2694026,106m/data=!3m1!1e3!4m6!3m5!1s0x478ffb3911826457:0x91fc009c32b76518!8m2!3d47.0489444!4d8.2696281!16s%2Fg%2F1td1259t?entry=ttu"
+                  target="_blank">Hochstrasser AG - New coffee roastery in Lucerne</a><br />
+                <a href="https://www.google.ch/maps/place/Aarau/@47.3911964,8.0503103,248m/data=!3m1!1e3!4m6!3m5!1s0x47903bf01e450701:0x1f73bd9ca50dce70!8m2!3d47.3913661!4d8.0512862!16s%2Fm%2F0r3t4xh?entry=ttu"
+                  target="_blank">Aarau railroad station - Renewal of the lighting</a><br />
+                <a href="https://www.hp-arch.ch/werkverzeichnis?c=Neubau_Doppelturnhalle_in_Schenkon"
+                  target="_blank">Village of Schenkon - New double sports hall</a><br />
               </div>
             </div>
           </div>
           <!--  -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFTTS">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFTTS"
-                aria-expanded="false"
-                aria-controls="collapseFTTS"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFTTS" aria-expanded="false" aria-controls="collapseFTTS">
                 <strong>Fiber to the Street</strong>
               </button>
             </h2>
-            <div
-              id="collapseFTTS"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingFTTS"
-              data-bs-parent="#accordionJob"
-            >
+            <div id="collapseFTTS" class="accordion-collapse collapse" aria-labelledby="headingFTTS"
+              data-bs-parent="#accordionJob">
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   Network 41 AG, the company where I made my apprenticeship and
@@ -94,23 +61,13 @@
           <!--  -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingMobile">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseMobile"
-                aria-expanded="false"
-                aria-controls="collapseMobile"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseMobile" aria-expanded="false" aria-controls="collapseMobile">
                 <strong>Mobile Antennas</strong>
               </button>
             </h2>
-            <div
-              id="collapseMobile"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingMobile"
-              data-bs-parent="#accordionJob"
-            >
+            <div id="collapseMobile" class="accordion-collapse collapse" aria-labelledby="headingMobile"
+              data-bs-parent="#accordionJob">
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   Next to the before mentioned FTTS rollout, Network 41 AG also
@@ -135,23 +92,13 @@
         <div class="accordion" id="accordionUniversity">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPREN1">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapsePREN1"
-                aria-expanded="true"
-                aria-controls="collapsePREN1"
-              >
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePREN1"
+                aria-expanded="true" aria-controls="collapsePREN1">
                 <strong>Project Unit 1 - Concept: Gravel Cleaner Robot</strong>
               </button>
             </h2>
-            <div
-              id="collapsePREN1"
-              class="accordion-collapse collapse show"
-              aria-labelledby="headingPREN1"
-              data-bs-parent="#accordionUniversity"
-            >
+            <div id="collapsePREN1" class="accordion-collapse collapse show" aria-labelledby="headingPREN1"
+              data-bs-parent="#accordionUniversity">
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   This mandatory unit provided thorough knowledge of project
@@ -165,20 +112,15 @@
                   The report (in German) can be downloaded and read at
                   the following link:
                 </p>
-                <button
-                  @click="
-                    openFileInNewWindow(
-                      'Schlussbericht_PREN_1_Team_07_2023-01-06.pdf'
-                    )
-                  "
-                  type="button"
-                  class="btn btn-primary"
-                  style="
+                <button @click="
+                  openFileInNewWindow(
+                    'Schlussbericht_PREN_1_Team_07_2023-01-06.pdf'
+                  )
+                  " type="button" class="btn btn-primary" style="
                     background-color: #eb5e28;
                     color: white;
                     border: #eb5e28;
-                  "
-                >
+                  ">
                   Report
                 </button>
               </div>
@@ -187,25 +129,13 @@
           <!--  -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPREN2">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapsePREN2"
-                aria-expanded="false"
-                aria-controls="collapsePREN2"
-              >
-                <strong
-                  >Project Unit 2 - Realization: Gravel Cleaner Robot</strong
-                >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsePREN2" aria-expanded="false" aria-controls="collapsePREN2">
+                <strong>Project Unit 2 - Realization: Gravel Cleaner Robot</strong>
               </button>
             </h2>
-            <div
-              id="collapsePREN2"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingPREN2"
-              data-bs-parent="#accordionUniversity"
-            >
+            <div id="collapsePREN2" class="accordion-collapse collapse" aria-labelledby="headingPREN2"
+              data-bs-parent="#accordionUniversity">
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   This mandatory unit builds up on the concept of the last one.
@@ -218,20 +148,15 @@
                   26 in both project units. As before, the report (in
                   German) can be downloaded and read at the following link:
                 </p>
-                <button
-                  @click="
-                    openFileInNewWindow(
-                      'Schlussbericht_PREN_2_Team_07_2023-06-10.pdf'
-                    )
-                  "
-                  type="button"
-                  class="btn btn-primary"
-                  style="
+                <button @click="
+                  openFileInNewWindow(
+                    'Schlussbericht_PREN_2_Team_07_2023-06-10.pdf'
+                  )
+                  " type="button" class="btn btn-primary" style="
                     background-color: #eb5e28;
                     color: white;
                     border: #eb5e28;
-                  "
-                >
+                  ">
                   Report
                 </button>
               </div>
@@ -240,23 +165,13 @@
           <!--  -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingSmoke">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseSmoke"
-                aria-expanded="false"
-                aria-controls="collapseSmoke"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSmoke" aria-expanded="false" aria-controls="collapseSmoke">
                 <strong>Electronics 2 - Smoke Detector</strong>
               </button>
             </h2>
-            <div
-              id="collapseSmoke"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingSmoke"
-              data-bs-parent="#accordionUniversity"
-            >
+            <div id="collapseSmoke" class="accordion-collapse collapse" aria-labelledby="headingSmoke"
+              data-bs-parent="#accordionUniversity">
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   This mandatory unit provides intermediate knowledge of all
@@ -268,20 +183,15 @@
                   report (in German) can be downloaded and read at the
                   following link:
                 </p>
-                <button
-                  @click="
-                    openFileInNewWindow(
-                      'Dokumentation_ELO2_Gruppe_9_Rauchmelder_2023-12-02.pdf'
-                    )
-                  "
-                  type="button"
-                  class="btn btn-primary"
-                  style="
+                <button @click="
+                  openFileInNewWindow(
+                    'Dokumentation_ELO2_Gruppe_9_Rauchmelder_2023-12-02.pdf'
+                  )
+                  " type="button" class="btn btn-primary" style="
                     background-color: #eb5e28;
                     color: white;
                     border: #eb5e28;
-                  "
-                >
+                  ">
                   Report
                 </button>
               </div>
@@ -290,23 +200,13 @@
           <!--  -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingRogowski">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseRogowski"
-                aria-expanded="false"
-                aria-controls="collapseRogowski"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseRogowski" aria-expanded="false" aria-controls="collapseRogowski">
                 <strong>Advanced Electronics - Rogowski Coil</strong>
               </button>
             </h2>
-            <div
-              id="collapseRogowski"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingRogowski"
-              data-bs-parent="#accordionUniversity"
-            >
+            <div id="collapseRogowski" class="accordion-collapse collapse" aria-labelledby="headingRogowski"
+              data-bs-parent="#accordionUniversity">
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   This voluntary unit exists to deepen the learned knowledge
@@ -318,20 +218,15 @@
                   frequency of 50 Hz. The report (in German) can be
                   downloaded and read at the following link:
                 </p>
-                <button
-                  @click="
-                    openFileInNewWindow(
-                      'Dokumentation_AE_Gruppe_Orange_Rogowskispule_2023-12-27.pdf'
-                    )
-                  "
-                  type="button"
-                  class="btn btn-primary"
-                  style="
+                <button @click="
+                  openFileInNewWindow(
+                    'Dokumentation_AE_Gruppe_Orange_Rogowskispule_2023-12-27.pdf'
+                  )
+                  " type="button" class="btn btn-primary" style="
                     background-color: #eb5e28;
                     color: white;
                     border: #eb5e28;
-                  "
-                >
+                  ">
                   Report
                 </button>
               </div>
@@ -340,42 +235,28 @@
           <!--  -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFunctionGenerator">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFunctionGenerator"
-                aria-expanded="false"
-                aria-controls="collapseFunctionGenerator"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFunctionGenerator" aria-expanded="false"
+                aria-controls="collapseFunctionGenerator">
                 <strong>PLC Systems - Function Generator</strong>
               </button>
             </h2>
-            <div
-              id="collapseFunctionGenerator"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingFunctionGenerator"
-              data-bs-parent="#accordionUniversity"
-            >
+            <div id="collapseFunctionGenerator" class="accordion-collapse collapse"
+              aria-labelledby="headingFunctionGenerator" data-bs-parent="#accordionUniversity">
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   this is a project desctiption The report (in English) can be
                   downloaded and read at the following link:
                 </p>
-                <button
-                  @click="
-                    openFileInNewWindow(
-                      'Report_ENG251_Function_Generator_2024-06-07.pdf'
-                    )
-                  "
-                  type="button"
-                  class="btn btn-primary"
-                  style="
+                <button @click="
+                  openFileInNewWindow(
+                    'Report_ENG251_Function_Generator_2024-06-07.pdf'
+                  )
+                  " type="button" class="btn btn-primary" style="
                     background-color: #eb5e28;
                     color: white;
                     border: #eb5e28;
-                  "
-                >
+                  ">
                   Report
                 </button>
               </div>
@@ -389,23 +270,13 @@
         <div class="accordion" id="accordionPrivate">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPortfolio">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapsePortfolio"
-                aria-expanded="true"
-                aria-controls="collapsePortfolio"
-              >
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePortfolio"
+                aria-expanded="true" aria-controls="collapsePortfolio">
                 <strong>This Portfolio Website</strong>
               </button>
             </h2>
-            <div
-              id="collapsePortfolio"
-              class="accordion-collapse collapse show"
-              aria-labelledby="headingPortfolio"
-              data-bs-parent="#accordionPrivate"
-            >
+            <div id="collapsePortfolio" class="accordion-collapse collapse show" aria-labelledby="headingPortfolio"
+              data-bs-parent="#accordionPrivate">
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   Whilst in my studies at HSLU, I already had two units
@@ -417,32 +288,20 @@
                   website might even be completely overhauled and serve an
                   entirely different purpose.
                 </p>
-                <a href="https://merlin-blickisdorf.ch" target="_blank"
-                  >My portfolio website</a
-                ><br />
+                <a href="https://merlin-blickisdorf.ch" target="_blank">My portfolio website</a><br />
               </div>
             </div>
           </div>
           <!--  -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPower">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapsePower"
-                aria-expanded="false"
-                aria-controls="collapsePower"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsePower" aria-expanded="false" aria-controls="collapsePower">
                 <strong>Lab Power Supply V2</strong>
               </button>
             </h2>
-            <div
-              id="collapsePower"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingPower"
-              data-bs-parent="#accordionPrivate"
-            >
+            <div id="collapsePower" class="accordion-collapse collapse" aria-labelledby="headingPower"
+              data-bs-parent="#accordionPrivate">
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   In the first semester of my studies in electrical engineering,
@@ -461,23 +320,13 @@
           <!--  -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingDesk">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseDesk"
-                aria-expanded="false"
-                aria-controls="collapseDesk"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseDesk" aria-expanded="false" aria-controls="collapseDesk">
                 <strong>Desk-PC</strong>
               </button>
             </h2>
-            <div
-              id="collapseDesk"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingDesk"
-              data-bs-parent="#accordionPrivate"
-            >
+            <div id="collapseDesk" class="accordion-collapse collapse" aria-labelledby="headingDesk"
+              data-bs-parent="#accordionPrivate">
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   Whilst in the middle of the corona time (summer 2020), I got
@@ -496,23 +345,13 @@
           <!--  -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingVenti">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseVenti"
-                aria-expanded="false"
-                aria-controls="collapseVenti"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseVenti" aria-expanded="false" aria-controls="collapseVenti">
                 <strong>Portable Ventilator</strong>
               </button>
             </h2>
-            <div
-              id="collapseVenti"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingVenti"
-              data-bs-parent="#accordionPrivate"
-            >
+            <div id="collapseVenti" class="accordion-collapse collapse" aria-labelledby="headingVenti"
+              data-bs-parent="#accordionPrivate">
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   By repurposing an old PC-Fan, I've created a simple new
@@ -558,10 +397,13 @@ export default {
 .projects {
   background-color: #354f52;
 }
+
 .justified-text {
   text-align: justify;
 }
+
 .p-10 {
-      padding: 7rem !important; /* 112px */
-    }
+  padding: 7rem !important;
+  /* 112px */
+}
 </style>

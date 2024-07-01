@@ -1,5 +1,5 @@
 <template>
-<!-- navbar-dark -->
+  <!-- navbar-dark -->
   <nav id="navbar" class="navbar custom-navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-0 mb-lg-0 nav-pills">
@@ -31,18 +31,11 @@
         </div>
         <div class="row pb-10">
           <div id="socials" class="socials col">
-            <a
-              class="link-underline-opacity-0 fs-1"
-              style="color: black"
-              href="https://linkedin.com/in/merlin-blickisdorf"
-            >
+            <a class="link-underline-opacity-0 fs-1" style="color: black"
+              href="https://linkedin.com/in/merlin-blickisdorf">
               <i class="pe-3 bi bi-linkedin"></i>
             </a>
-            <a
-              class="ps-3 link-underline-opacity-0 fs-1"
-              style="color: black"
-              href="https://github.com/MBlick"
-            >
+            <a class="ps-3 link-underline-opacity-0 fs-1" style="color: black" href="https://github.com/MBlick">
               <i class="bi bi-github"></i>
             </a>
           </div>
@@ -50,11 +43,7 @@
       </div>
       <!--  -->
       <div class="col-7 pt-5 d-flex justify-content-center align-items-center full-height text-start">
-        <img
-          class="image_circuit m-5 w-75"
-          src="../assets/pseudo-circuit.png"
-          alt="image of a pseudo circuit"
-        />
+        <img class="image_circuit m-5 w-custom" src="../assets/pseudo-circuit.png" alt="image of a pseudo circuit" />
       </div>
     </div>
   </div>
@@ -71,40 +60,58 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.full-height {
+  height: 100vh;
+}
+
 .news {
   padding-top: 1%;
   padding-bottom: 1%;
 }
+
 .home {
   background-color: #52796f;
   align-content: center;
 }
+
 .text_name {
   font-size: 4rem;
 }
+
 .text_student {
   font-size: 2rem;
 }
+
+.w-custom {
+  width: 85%;
+}
+
 .navbar {
   padding-top: 0%;
   padding-bottom: 0%;
 }
+
 .custom-navbar {
   background-color: #252422 !important;
 }
+
 .nav-pills .nav-link.active {
   background-color: #eb5e28 !important;
   color: white !important;
 }
+
 .nav-pills .nav-link {
   color: white !important;
 }
+
 .nav-pills .nav-link:hover {
   color: #eb5e28 !important;
 }
+
 .pt-10 {
   padding-top: 15rem !important;
 }
+
 .pb-10 {
   padding-bottom: 15rem !important;
 }
