@@ -79,8 +79,7 @@ export default {
 .resume {
   background-color: #52796f;
 }
-/* This sets the container height to the current display height */
-.container-fluid {
-  height: 100vh;
-}
+.p-10 {
+      padding: 7rem !important; /* 112px */
+    }
 </style>

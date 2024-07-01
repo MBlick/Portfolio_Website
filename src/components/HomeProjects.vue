@@ -265,7 +265,7 @@
                   and PCB design. There was also a project due, to be able to
                   implement what we learned. In a team of two, we built a
                   complete and functioning optical smoke detector. The
-                  documentation (in German) can be downloaded and read at the
+                  report (in German) can be downloaded and read at the
                   following link:
                 </p>
                 <button
@@ -282,7 +282,7 @@
                     border: #f67280;
                   "
                 >
-                  Documentation
+                  Report
                 </button>
               </div>
             </div>
@@ -315,7 +315,7 @@
                   in the economy. As well as in the unit electronics two, there
                   was also a project due. This time, also in a team of two, we
                   built a rogowski coil to measure alternating current (AC) at a
-                  frequency of 50 Hz. The documentation (in German) can be
+                  frequency of 50 Hz. The report (in German) can be
                   downloaded and read at the following link:
                 </p>
                 <button
@@ -332,7 +332,51 @@
                     border: #f67280;
                   "
                 >
-                  Documentation
+                  Report
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFunctionGenerator">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFunctionGenerator"
+                aria-expanded="false"
+                aria-controls="collapseFunctionGenerator"
+              >
+                <strong>PLC Systems - Function Generator</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseFunctionGenerator"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFunctionGenerator"
+              data-bs-parent="#accordionUniversity"
+            >
+              <div class="accordion-body text-start">
+                <p class="justified-text">
+                  this is a project desctiption The report (in English) can be
+                  downloaded and read at the following link:
+                </p>
+                <button
+                  @click="
+                    openFileInNewWindow(
+                      'Report_ENG251_Function Generator.pdf'
+                    )
+                  "
+                  type="button"
+                  class="btn btn-primary"
+                  style="
+                    background-color: #f67280;
+                    color: white;
+                    border: #f67280;
+                  "
+                >
+                  Report
                 </button>
               </div>
             </div>
@@ -437,7 +481,7 @@
               <div class="accordion-body text-start">
                 <p class="justified-text">
                   Whilst in the middle of the corona time (summer 2020), I got
-                  bored and built a desk pc. The clue is, that all computer
+                  bored and built a desk PC. The clue is, that all computer
                   hardware is completely hidden inside the desk and not visible
                   at first glance. For that reason, I had to build the desk from
                   scratch. Furthermore, the issue of cooling had to be
@@ -517,8 +561,7 @@ export default {
 .justified-text {
   text-align: justify;
 }
-/* This sets the container height to the current display height */
-.container-fluid {
-  height: 100vh;
-}
+.p-10 {
+      padding: 7rem !important; /* 112px */
+    }
 </style>

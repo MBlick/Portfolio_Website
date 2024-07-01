@@ -21,15 +21,15 @@
   <!--  -->
   <div id="home" class="home container-fluid" data-bs-target="#home">
     <div class="row">
-      <div class="col p-5 text-start">
+      <div class="col pt-5 ps-5 text-start">
         <div class="row">
-          <h1 class="text_name fw-bold">MERLIN</h1>
+          <h1 class="text_name pt-10 fw-bold">MERLIN</h1>
           <h1 class="text_name fw-bold">BLICKISDORF</h1>
           <p class="text_student">
             Student in Electrical Engineering and Information Technology
           </p>
         </div>
-        <div class="row">
+        <div class="row pb-10">
           <div id="socials" class="socials col">
             <a
               class="link-underline-opacity-0 fs-1"
@@ -49,8 +49,12 @@
         </div>
       </div>
       <!--  -->
-      <div class="col-7 p-5 text-start">
-        <p>some picture or canvas of an electrical circuit</p>
+      <div class="col-7 pt-5 d-flex justify-content-center align-items-center full-height text-start">
+        <img
+          class="image_circuit p-5 w-100"
+          src="../assets/pseudo-circuit.png"
+          alt="image of a pseudo circuit"
+        />
       </div>
     </div>
   </div>
@@ -88,8 +92,10 @@ export default {
 .custom-navbar {
   background-color: #1C3144 !important;
 }
-/* This sets the container height to the current display height */
-.container-fluid {
-  height: 100vh;
+.pt-10 {
+  padding-top: 10rem !important; /* 112px */
+}
+.pb-10 {
+  padding-bottom: 10rem !important;
 }
 </style>
