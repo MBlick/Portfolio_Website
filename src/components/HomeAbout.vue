@@ -28,6 +28,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.full-height {
+  height: 100vh;
+}
+
 .about {
   background-color: #354f52;
   align-content: center;
