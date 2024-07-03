@@ -1,8 +1,9 @@
 <template>
-  <div id="projects" class="projects p-5 container-fluid" data-bs-target="#projects">
-    <div class="row pt-5 pb-5">
-      <div class="col">
-        <h1 class="pb-5 fw-bold">WORK</h1>
+  <div id="projects" class="projects p-3 p-lg-5 container-fluid" data-bs-target="#projects">
+    <h1 class="title_projects fw-bold mx-auto">PROJECTS</h1>
+    <div class="row pt-3 pt-lg-5 pb-3 pb-lg-5">
+      <div class="col-sm">
+        <h1 class="pb-3 pb-lg-5 fw-bold">WORK</h1>
         <div class="accordion" id="accordionJob">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingELP">
@@ -87,8 +88,8 @@
         </div>
       </div>
       <!-- paragraph with university accordion -->
-      <div class="col">
-        <h1 class="pb-5 fw-bold">UNIVERSITY</h1>
+      <div class="col-sm">
+        <h1 class="pt-5 pt-lg-0 pb-3 pb-lg-5 fw-bold">UNIVERSITY</h1>
         <div class="accordion" id="accordionUniversity">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPREN1">
@@ -265,8 +266,8 @@
         </div>
       </div>
       <!-- paragraph with private accordion -->
-      <div class="col">
-        <h1 class="pb-5 fw-bold">PRIVATE</h1>
+      <div class="col-sm">
+        <h1 class="pt-5 pt-lg-0 pb-3 pb-lg-5 fw-bold">PRIVATE</h1>
         <div class="accordion" id="accordionPrivate">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPortfolio">
@@ -397,13 +398,22 @@ export default {
 .projects {
   background-color: #354f52;
 }
-
+.title_projects {
+  font-size: 3rem;
+}
 .justified-text {
   text-align: justify;
 }
-
 .p-10 {
   padding: 7rem !important;
   /* 112px */
+}
+
+/* Media query for smartphones (up to 768px wide) */
+@media (max-width: 768px) {
+  .title_projects {
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+  }
 }
 </style>

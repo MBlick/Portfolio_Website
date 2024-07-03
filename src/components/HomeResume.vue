@@ -1,30 +1,30 @@
 <template>
-  <div id="resume" class="resume p-5 container-fluid" data-bs-target="#resume">
-    <h1 class="text-start fw-bold d-flex justify-content-center">RESUME</h1>
+  <div id="resume" class="resume p-3 p-lg-5 container-fluid" data-bs-target="#resume">
+    <h1 class="title_resume fw-bold mx-auto">RESUME</h1>
     <div id="resume" class="resume container-fluid" data-bs-target="#resume">
-      <div class="row d-flex justify-content-center pt-5 h-50">
-        <div class="technology col-6">
+      <div class="row d-flex justify-content-center pt-lg-5 h-50">
+        <div class="technology col-sm">
           <h1 class="fw-bold">TECHNOLOGY</h1>
           <p class="">Programming: C, C#, Python, Assembler, HTML, CSS, PHP, Vue.js</p>
           <p class="">Software: Tina, Altium, Siemens TIA, Siemens NX, MATLAB</p>
         </div>
         <!--  -->
-        <div class="interests col-6">
-          <h1 class="fw-bold">INTERESTS</h1>
-          <p class="">DIY Projects, 3D Printing</p>
-          <p class="">Repair of electrical devices</p>
-        </div>
-      </div>
-      <!--  -->
-      <div class="row d-flex justify-content-center pt-5 h-50">
-        <div class="language col-6">
+        <div class="language col-sm">
           <h1 class="fw-bold">LANGUAGE</h1>
           <p class="">German (native)</p>
           <p class="">English (fluent, C1 level)</p>
           <p class="">French (basic)</p>
         </div>
+      </div>
+      <!--  -->
+      <div class="row d-flex justify-content-center pt-lg-5 h-50">
+        <div class="interests col-sm">
+          <h1 class="fw-bold">INTERESTS</h1>
+          <p class="">DIY Projects, 3D Printing</p>
+          <p class="">Repair of electrical devices</p>
+        </div>
         <!--  -->
-        <div class="hobbies col-6">
+        <div class="hobbies col-sm">
           <h1 class="fw-bold">HOBBIES</h1>
           <p class="">Skiing, Squash</p>
           <p class="">Fitness, Cooking</p>
@@ -64,9 +64,10 @@
                   <div class="timeline-content timeline-indicator">
                     <div class="card border-0 shadow">
                       <div class="card-body p-xl-4">
-                        <h2 class="card-title mb-2">Voluntary Work</h2>
+                        <h2 class="card-title mb-2">Semester Abroad</h2>
                         <h6 class="card-subtitle text-secondary mb-3">Feb 2024 - Jun 2024</h6>
-                        <p class="card-text m-0">Repair Café, Bourbaki Lucerne</p>
+                        <p class="card-text m-0">Murdoch University</p>
+                        <p class="card-text m-0">Perth - Western Australia</p>
                       </div>
                     </div>
                   </div>
@@ -79,10 +80,9 @@
                   <div class="timeline-content timeline-indicator">
                     <div class="card border-0 shadow">
                       <div class="card-body p-xl-4">
-                        <h2 class="card-title mb-2">Semester Abroad</h2>
-                        <h6 class="card-subtitle text-secondary mb-3">Feb 2024 - Jun 2024</h6>
-                        <p class="card-text m-0">Murdoch University</p>
-                        <p class="card-text m-0">Perth - Western Australia</p>
+                        <h2 class="card-title mb-2">Voluntary Work</h2>
+                        <h6 class="card-subtitle text-secondary mb-3">Nov 2023 - Feb 2024</h6>
+                        <p class="card-text m-0">Repair Café, Bourbaki Lucerne</p>
                       </div>
                     </div>
                   </div>
@@ -95,9 +95,9 @@
                   <div class="timeline-content timeline-indicator">
                     <div class="card border-0 shadow">
                       <div class="card-body p-xl-4">
-                        <h2 class="card-title mb-2">Electrical Planer EFZ</h2>
+                        <h2 class="card-title mb-2">Electrical Planner EFZ</h2>
                         <h6 class="card-subtitle text-secondary mb-3">Aug 2022 - Sep 2023</h6>
-                        <p class="card-text m-0">HT Infraserv AG, Entlebuch</p>
+                        <p class="card-text m-0">HT Infraserv AG, Entlebuch, Summer holidays</p>
                       </div>
                     </div>
                   </div>
@@ -125,7 +125,7 @@
                   <div class="timeline-content timeline-indicator">
                     <div class="card border-0 shadow">
                       <div class="card-body p-xl-4">
-                        <h2 class="card-title mb-2">Start Bachelor FH</h2>
+                        <h2 class="card-title mb-2">Start Bachelor</h2>
                         <h6 class="card-subtitle text-secondary mb-3">Sep 2021</h6>
                       </div>
                     </div>
@@ -142,7 +142,6 @@
                         <h2 class="card-title mb-2">Vocational Baccalaurete</h2>
                         <h6 class="card-subtitle text-secondary mb-3">Aug 2020 - Jul 2021</h6>
                         <p class="card-text m-0">BBZB, Lucerne</p>
-                        <p class="card-text m-0">Bilingual in physics, economy & law and history & politics</p>
                       </div>
                     </div>
                   </div>
@@ -155,7 +154,7 @@
                   <div class="timeline-content timeline-indicator">
                     <div class="card border-0 shadow">
                       <div class="card-body p-xl-4">
-                        <h2 class="card-title mb-2">Electrical Planer EFZ</h2>
+                        <h2 class="card-title mb-2">Electrical Planner EFZ</h2>
                         <h6 class="card-subtitle text-secondary mb-3">Jul 2018 - Jul 2020</h6>
                         <p class="card-text m-0">Network 41 AG, Sursee</p>
                       </div>
@@ -205,17 +204,38 @@ export default {
 .resume {
   background-color: #52796f;
 }
-
 .bg-light {
   background-color: #52796f !important;
 }
-
-.text-start {
+.title_resume {
   font-size: 3rem;
 }
-
 .p-10 {
   padding: 7rem !important;
   /* 112px */
+}
+
+/* Media query for smartphones (up to 768px wide) */
+@media (max-width: 768px) {
+  .title_resume {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+  .technology {
+    padding-top: 0rem;
+    padding-bottom: 1.5rem;
+  }
+  .interests {
+    padding-top: 0rem;
+    padding-bottom: 1.5rem;
+  }
+  .language {
+    padding-top: 0rem;
+    padding-bottom: 1.5rem;
+  }
+  .hobbies {
+    padding-top: 0rem;
+    padding-bottom: 1.5rem;
+  }
 }
 </style>
