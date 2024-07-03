@@ -37,10 +37,10 @@
         <div class="row pb-10">
           <div id="socials" class="socials col">
             <a class="link-underline-opacity-0 fs-1" style="color: black"
-              href="https://linkedin.com/in/merlin-blickisdorf">
+              href="https://linkedin.com/in/merlin-blickisdorf" target="_blank">
               <i class="pe-3 bi bi-linkedin"></i>
             </a>
-            <a class="ps-3 link-underline-opacity-0 fs-1" style="color: black" href="https://github.com/MBlick">
+            <a class="ps-3 link-underline-opacity-0 fs-1" style="color: black" href="https://github.com/MBlick" target="_blank">
               <i class="bi bi-github"></i>
             </a>
           </div>
@@ -118,10 +118,6 @@ export default {
 @media (max-width: 768px) {
   .full-height {
     height: auto; /* Adjust height for small screens */
-  }
-  /* Adjust navbar padding to account for iPhone notch */
-  #navbar {
-    padding-top: calc(env(safe-area-inset-top) + 10px);
   }
   .text-start {
     text-align: center;

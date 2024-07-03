@@ -4,6 +4,7 @@
     <HomeAbout />
     <HomeResume />
     <HomeProjects />
+    <HomeFooter />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HomeHome from './components/HomeHome.vue'
 import HomeAbout from './components/HomeAbout.vue'
 import HomeResume from './components/HomeResume.vue'
 import HomeProjects from './components/HomeProjects.vue'
+import HomeFooter from './components/HomeFooter.vue'
 
 export default {
   name: 'App',
@@ -20,6 +22,7 @@ export default {
     HomeAbout,
     HomeResume,
     HomeProjects,
+    HomeFooter,
   }
 }
 </script>
