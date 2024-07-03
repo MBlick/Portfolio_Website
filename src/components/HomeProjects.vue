@@ -115,7 +115,7 @@
                 </p>
                 <button @click="
                   openFileInNewWindow(
-                    'Schlussbericht_PREN_1_Team_07_2023-01-06.pdf'
+                    'https://drive.google.com/file/d/18JhXxEUv2N6iaZRuUeWObu1FcYQFXUQx/view?usp=drive_link'
                   )
                   " type="button" class="btn btn-primary" style="
                     background-color: #eb5e28;
@@ -151,7 +151,7 @@
                 </p>
                 <button @click="
                   openFileInNewWindow(
-                    'Schlussbericht_PREN_2_Team_07_2023-06-10.pdf'
+                    'https://drive.google.com/file/d/1EfRihjsRAqfgzEjhbJF00olKRSYwLgvi/view?usp=drive_link'
                   )
                   " type="button" class="btn btn-primary" style="
                     background-color: #eb5e28;
@@ -186,7 +186,7 @@
                 </p>
                 <button @click="
                   openFileInNewWindow(
-                    'Dokumentation_ELO2_Gruppe_9_Rauchmelder_2023-12-02.pdf'
+                    'https://drive.google.com/file/d/1Zyg_QEWcTSnO1Xz3YMKKiPoTNiJD66wS/view?usp=drive_link'
                   )
                   " type="button" class="btn btn-primary" style="
                     background-color: #eb5e28;
@@ -221,7 +221,7 @@
                 </p>
                 <button @click="
                   openFileInNewWindow(
-                    'Dokumentation_AE_Gruppe_Orange_Rogowskispule_2023-12-27.pdf'
+                    'https://drive.google.com/file/d/1IWTPuyA_72i_hW-cgPbCt0U-rQIFvpgV/view?usp=drive_link'
                   )
                   " type="button" class="btn btn-primary" style="
                     background-color: #eb5e28;
@@ -251,7 +251,7 @@
                 </p>
                 <button @click="
                   openFileInNewWindow(
-                    'Report_ENG251_Function_Generator_2024-06-07.pdf'
+                    'https://drive.google.com/file/d/1HcmCtn82CRH5fLdMpNZm8o2Sd7WLdEeA/view?usp=drive_link'
                   )
                   " type="button" class="btn btn-primary" style="
                     background-color: #eb5e28;
@@ -384,10 +384,7 @@ export default {
   },
   methods: {
     openFileInNewWindow(fileName) {
-      // Use a relative path to the existing PDF file
-      const filePath = "../assets/documents/" + fileName;
-      // Open the file in a new window
-      window.open(filePath, "_blank");
+      window.open(fileName, "_blank");
     },
   },
 };
