@@ -25,7 +25,7 @@
   </nav>
   <!-- Home Section -->
   <div id="home" class="home container-fluid full-height" data-bs-target="#home">
-    <div class="row">
+    <div class="row align-items-center justify-content-center">
       <div class="col pt-3 pt-lg-5 ps-3 ps-lg-5 text-start">
         <div class="row">
           <h1 class="text_name pt-10 fw-bold">MERLIN</h1>
@@ -34,7 +34,7 @@
             Student in Electrical Engineering and Information Technology
           </p>
         </div>
-        <div class="row pb-10">
+        <div class="row">
           <div id="socials" class="socials col">
             <a class="link-underline-opacity-0 fs-1" style="color: black"
               href="https://linkedin.com/in/merlin-blickisdorf" target="_blank">
@@ -107,17 +107,11 @@ export default {
   background-color: #eb5e28 !important;
   border-color: #eb5e28 !important;
 }
-.pt-10 {
-  padding-top: 15rem !important;
-}
-.pb-10 {
-  padding-bottom: 15rem !important;
-}
 
 /* Media query for smartphones (up to 768px wide) */
 @media (max-width: 768px) {
   .full-height {
-    height: auto; /* Adjust height for small screens */
+  height: 100vh;
   }
   .text-start {
     text-align: center;
@@ -142,6 +136,13 @@ export default {
   }
   .image_circuit {
     display: none;
+  }
+}
+
+/* Media query for extra large screens (2000px and up) */
+@media (min-width: 2000px) {
+  .image_circuit {
+    max-width: 70%;
   }
 }
 </style>
