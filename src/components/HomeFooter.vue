@@ -14,9 +14,9 @@ export default {
     msg: String,
   },
 };
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById('year').textContent = new Date().getFullYear();
-  });
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById('year').textContent = new Date().getFullYear();
+});
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

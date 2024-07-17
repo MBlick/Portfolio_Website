@@ -185,10 +185,31 @@
 </template>
 
 <script>
+import { gsap } from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 export default {
-  name: "HomeAboutMe",
+  name: 'HomeAboutMe',
   props: {
     msg: String,
+  },
+  mounted() {
+    gsap.registerPlugin(ScrollTrigger);
+    const elements = document.querySelectorAll('.timeline-item.right, .timeline-item.left');
+    elements.forEach((element) => {
+      const direction = element.classList.contains('right') ? 700 : -700;
+      gsap.from(element, {
+        x: direction,
+        opacity: 0,
+        duration: 1,
+        scrollTrigger: {
+          trigger: element,
+          start: 'top 80%',
+          end: 'bottom 20%',
+          toggleActions: 'play none none reverse',
+        },
+      });
+    });
   },
 };
 </script>
@@ -202,21 +223,39 @@ export default {
 .resume {
   background-color: #52796f;
 }
+
 .bg-light {
   background-color: #52796f !important;
 }
+
 .title_resume {
   font-size: 3rem;
 }
+
 .p-10 {
   padding: 7rem !important;
   /* 112px */
 }
+
 .timeline-item.right::after {
   border-color: #eb5e28;
 }
+
 .timeline-item.left::after {
   border-color: #eb5e28;
+}
+
+.timeline-content.timeline-indicator {
+  position: relative;
+  /* Establish a new stacking context */
+  z-index: 2;
+  /* Ensure indicators are above the lines */
+}
+
+.timeline-item {
+  position: relative;
+  /* Make sure content is positioned correctly */
+  z-index: 1;
 }
 
 /* Media query for smartphones (up to 768px wide) */
@@ -225,18 +264,22 @@ export default {
     padding-top: 3rem;
     padding-bottom: 1.5rem;
   }
+
   .technology {
     padding-top: 0rem;
     padding-bottom: 1.5rem;
   }
+
   .interests {
     padding-top: 0rem;
     padding-bottom: 1.5rem;
   }
+
   .language {
     padding-top: 0rem;
     padding-bottom: 1.5rem;
   }
+
   .hobbies {
     padding-top: 0rem;
     padding-bottom: 1.5rem;

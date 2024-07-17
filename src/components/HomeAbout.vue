@@ -33,15 +33,19 @@ export default {
   background-color: #354f52;
   align-content: center;
 }
+
 .full-height {
   height: 100vh;
 }
+
 .text-start {
   font-size: 3rem;
 }
+
 .text_about {
   font-size: 2em;
 }
+
 .image_me {
   max-width: 55%;
 }
@@ -51,24 +55,31 @@ export default {
   .full-height {
     height: auto;
   }
+
   .title_about {
     padding-top: 4rem;
   }
+
   .text-start {
     text-align: center !important;
   }
+
   .pt-10 {
     padding-top: 4rem !important;
   }
+
   .pb-10 {
     padding-bottom: 3rem !important;
   }
+
   .text_about {
     padding-bottom: 0rem;
   }
+
   .image_me {
     padding-bottom: 6rem;
   }
+
   body {
     overflow-x: hidden;
     /* Prevent horizontal overflow on small screens */

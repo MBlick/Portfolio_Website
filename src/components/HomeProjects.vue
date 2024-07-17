@@ -7,8 +7,8 @@
         <div class="accordion" id="accordionJob">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingELP">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseELP"
-                aria-expanded="true" aria-controls="collapseELP">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseELP" aria-expanded="true" aria-controls="collapseELP">
                 <strong>Electrical Planning</strong>
               </button>
             </h2>
@@ -83,8 +83,8 @@
         <div class="accordion" id="accordionUniversity">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPREN1">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePREN1"
-                aria-expanded="true" aria-controls="collapsePREN1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsePREN1" aria-expanded="true" aria-controls="collapsePREN1">
                 <strong>Project Unit 1 - Concept: Gravel Cleaner Robot</strong>
               </button>
             </h2>
@@ -394,25 +394,31 @@ export default {
 .projects {
   background-color: #354f52;
 }
+
 .title_projects {
   font-size: 3rem;
 }
+
 .justified-text {
   text-align: justify;
 }
+
 .p-10 {
   padding: 7rem !important;
   /* 112px */
 }
+
 .accordion-button:not(.collapsed) {
   text-emphasis-color: black;
   background-color: white;
 }
+
 .accordion-button:focus {
   box-shadow: none;
   color: white;
   background-color: #eb5e28;
 }
+
 .accordion-button:active {
   color: white;
   background-color: #eb5e28;
