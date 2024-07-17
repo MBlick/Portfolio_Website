@@ -35,4 +35,8 @@ export default {
   text-align: center;
   color: black;
 }
+
+html, body {
+  overflow-x: hidden;
+}
 </style>
