@@ -7,12 +7,12 @@
         <div class="accordion" id="accordionJob">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingELP">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseELP"
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseELP"
                 aria-expanded="true" aria-controls="collapseELP">
                 <strong>Electrical Planning</strong>
               </button>
             </h2>
-            <div id="collapseELP" class="accordion-collapse collapse show" aria-labelledby="headingELP"
+            <div id="collapseELP" class="accordion-collapse collapse" aria-labelledby="headingELP"
               data-bs-parent="#accordionJob">
               <div class="accordion-body text-start">
                 <p class="">
@@ -83,12 +83,12 @@
         <div class="accordion" id="accordionUniversity">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPREN1">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePREN1"
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePREN1"
                 aria-expanded="true" aria-controls="collapsePREN1">
                 <strong>Project Unit 1 - Concept: Gravel Cleaner Robot</strong>
               </button>
             </h2>
-            <div id="collapsePREN1" class="accordion-collapse collapse show" aria-labelledby="headingPREN1"
+            <div id="collapsePREN1" class="accordion-collapse collapse" aria-labelledby="headingPREN1"
               data-bs-parent="#accordionUniversity">
               <div class="accordion-body text-start">
                 <p class="">
@@ -251,12 +251,12 @@
         <div class="accordion" id="accordionPrivate">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPortfolio">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsePortfolio" aria-expanded="true" aria-controls="collapsePortfolio">
                 <strong>This Portfolio Website</strong>
               </button>
             </h2>
-            <div id="collapsePortfolio" class="accordion-collapse collapse show" aria-labelledby="headingPortfolio"
+            <div id="collapsePortfolio" class="accordion-collapse collapse" aria-labelledby="headingPortfolio"
               data-bs-parent="#accordionPrivate">
               <div class="accordion-body text-start">
                 <p class="">
@@ -403,6 +403,19 @@ export default {
 .p-10 {
   padding: 7rem !important;
   /* 112px */
+}
+.accordion-button:not(.collapsed) {
+  text-emphasis-color: black;
+  background-color: white;
+}
+.accordion-button:focus {
+  box-shadow: none;
+  color: white;
+  background-color: #eb5e28;
+}
+.accordion-button:active {
+  color: white;
+  background-color: #eb5e28;
 }
 
 /* Media query for smartphones (up to 768px wide) */

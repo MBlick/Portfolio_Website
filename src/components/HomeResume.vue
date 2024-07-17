@@ -13,7 +13,6 @@
           <h1 class="fw-bold">LANGUAGE</h1>
           <p class="">German (native)</p>
           <p class="">English (fluent, C1 level)</p>
-          <p class="">French (basic)</p>
         </div>
       </div>
       <!--  -->
@@ -28,7 +27,6 @@
           <h1 class="fw-bold">HOBBIES</h1>
           <p class="">Skiing, Squash</p>
           <p class="">Fitness, Cooking</p>
-          <p class="">Chess</p>
         </div>
       </div>
     </div>
@@ -213,6 +211,12 @@ export default {
 .p-10 {
   padding: 7rem !important;
   /* 112px */
+}
+.timeline-item.right::after {
+  border-color: #eb5e28;
+}
+.timeline-item.left::after {
+  border-color: #eb5e28;
 }
 
 /* Media query for smartphones (up to 768px wide) */
