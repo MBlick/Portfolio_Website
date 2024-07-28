@@ -212,6 +212,40 @@
           </div>
           <!--  -->
           <div class="accordion-item">
+            <h2 class="accordion-header" id="headingGantryApparatus">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseGantryApparatus" aria-expanded="false"
+                aria-controls="collapseGantryApparatus">
+                <strong>PLC Systems - Gantry Apparatus</strong>
+              </button>
+            </h2>
+            <div id="collapseGantryApparatus" class="accordion-collapse collapse"
+              aria-labelledby="headingGantryApparatus" data-bs-parent="#accordionUniversity">
+              <div class="accordion-body text-start">
+                <p class="">
+                  This voluntary unit has been done in my semester abroad in Australia. It teaches their students to
+                  independently solve automation problems and learn new technologies and methods like ladder logic LAD,
+                  STL, FBD, timers, counters, simulators, digital and analog I/O, PID control, state machines and many
+                  more. In this unit, three projects were due. The second project was given by our professors. It consists of a
+                  given gantry apparatus that had to fulfill a certain task. The report (in English) can be read at the
+                  following link:
+                </p>
+                <button @click="
+                  openFileInNewWindow(
+                    'https://drive.google.com/file/d/1Kc4IYmSTDgHl72YuzYovUBOQalbs3SKL/view?usp=sharing'
+                  )
+                  " type="button" class="btn btn-primary" style="
+                    background-color: #eb5e28;
+                    color: white;
+                    border: #eb5e28;
+                  ">
+                  Report
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="accordion-item">
             <h2 class="accordion-header" id="headingFunctionGenerator">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseFunctionGenerator" aria-expanded="false"
@@ -223,10 +257,7 @@
               aria-labelledby="headingFunctionGenerator" data-bs-parent="#accordionUniversity">
               <div class="accordion-body text-start">
                 <p class="">
-                  This voluntary unit has been done in my semester abroad in Australia. It teaches their students to
-                  independently solve automation problems and learn new technologies and methods like ladder logic LAD,
-                  STL, FBD, timers, counters, simulators, digital and analog I/O, PID control, state machines and many
-                  more. In this unit, three projects were due. The third one was open for ideas and my team created a
+                  The third project of PLC Systems was open for ideas and my team created a
                   function generator using a Siemens PLC. The report (in English) can be read at the following link:
                 </p>
                 <button @click="
