@@ -253,7 +253,7 @@
             <h2 class="accordion-header" id="headingPortfolio">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsePortfolio" aria-expanded="true" aria-controls="collapsePortfolio">
-                <strong>This Portfolio Website</strong>
+                <strong>My Portfolio Website</strong>
               </button>
             </h2>
             <div id="collapsePortfolio" class="accordion-collapse collapse" aria-labelledby="headingPortfolio"
@@ -266,7 +266,17 @@
                   skill sets. In the future, this website might even be completely overhauled and serve an entirely
                   different purpose.
                 </p>
-                <a href="https://merlin-blickisdorf.ch" target="_blank">My portfolio website</a><br />
+                <button @click="
+                  openFileInNewWindow(
+                    'https://drive.google.com/file/d/14rNpaCR076suzbZmpn011jCaaD4PJECZ/view?usp=sharing'
+                  )
+                  " type="button" class="btn btn-primary" style="
+                    background-color: #eb5e28;
+                    color: white;
+                    border: #eb5e28;
+                  ">
+                  Project Overview
+                </button>
               </div>
             </div>
           </div>
@@ -307,7 +317,7 @@
             <h2 class="accordion-header" id="headingDesk">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseDesk" aria-expanded="false" aria-controls="collapseDesk">
-                <strong>Desk-PC</strong>
+                <strong>Desk PC</strong>
               </button>
             </h2>
             <div id="collapseDesk" class="accordion-collapse collapse" aria-labelledby="headingDesk"
@@ -340,7 +350,7 @@
             <h2 class="accordion-header" id="headingVenti">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseVenti" aria-expanded="false" aria-controls="collapseVenti">
-                <strong>Portable Ventilator</strong>
+                <strong>Portable Fan V3</strong>
               </button>
             </h2>
             <div id="collapseVenti" class="accordion-collapse collapse" aria-labelledby="headingVenti"
