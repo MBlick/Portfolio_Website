@@ -9,16 +9,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-0 mb-lg-0 nav-pills">
           <li class="nav-item nav-link">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home" @click="closeNavbar">Home</a>
           </li>
           <li class="nav-item nav-link flex-column">
-            <a class="nav-link" aria-current="page" href="#about">About</a>
+            <a class="nav-link" aria-current="page" href="#about" @click="closeNavbar">About</a>
           </li>
           <li class="nav-item nav-link flex-column">
-            <a class="nav-link" aria-current="page" href="#resume">Resume</a>
+            <a class="nav-link" aria-current="page" href="#resume" @click="closeNavbar">Resume</a>
           </li>
           <li class="nav-item nav-link flex-column">
-            <a class="nav-link" aria-current="page" href="#projects">Projects</a>
+            <a class="nav-link" aria-current="page" href="#projects" @click="closeNavbar">Projects</a>
           </li>
         </ul>
       </div>
@@ -60,6 +60,16 @@
 <script>
 export default {
   name: "HomeAboutMe",
+  methods: {
+    closeNavbar() {
+      const navbarToggler = document.querySelector('.navbar-toggler');
+      const navbarCollapse = document.querySelector('#navbarSupportedContent');
+
+      if (navbarCollapse.classList.contains('show')) {
+        navbarToggler.click();
+      }
+    },
+  },
   props: {
     msg: String,
   },
@@ -123,7 +133,7 @@ export default {
 }
 
 /* Media query for smartphones (up to 768px wide) */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .full-height {
     height: 100vh;
   }
@@ -166,6 +176,12 @@ export default {
 @media (min-width: 2000px) {
   .image_circuit {
     max-width: 70%;
+  }
+}
+
+@media (height <= 600px) {
+  .image_circuit {
+    display: none;
   }
 }
 </style>

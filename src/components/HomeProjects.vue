@@ -1,9 +1,9 @@
 <template>
   <div id="projects" class="projects p-3 pt-lg-5 p-lg-4 container-fluid" data-bs-target="#projects">
-    <h1 class="title_projects fw-bold mx-auto">PROJECTS</h1>
+    <h1 class="title_projects fw-bold max-auto">PROJECTS</h1>
     <div class="row pt-3 pt-lg-5 pb-3 pb-lg-5">
       <div class="col-sm">
-        <h1 class="pb-3 pb-lg-5 fw-bold">WORK</h1>
+        <h1 class="pb-3 pb-lg-5 pt-5 pt-lg-0 fw-bold">WORK</h1>
         <div class="accordion" id="accordionJob">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingELP">
@@ -79,7 +79,7 @@
       </div>
       <!-- paragraph with university accordion -->
       <div class="col-sm">
-        <h1 class="pt-5 pt-lg-0 pb-3 pb-lg-5 fw-bold">UNIVERSITY</h1>
+        <h1 class="pb-3 pb-lg-5 pt-5 pt-lg-0 fw-bold">UNIVERSITY</h1>
         <div class="accordion" id="accordionUniversity">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPREN1">
@@ -214,8 +214,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingGantryApparatus">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseGantryApparatus" aria-expanded="false"
-                aria-controls="collapseGantryApparatus">
+                data-bs-target="#collapseGantryApparatus" aria-expanded="false" aria-controls="collapseGantryApparatus">
                 <strong>PLC Systems - Gantry Apparatus</strong>
               </button>
             </h2>
@@ -226,7 +225,8 @@
                   This voluntary unit has been done in my semester abroad in Australia. It teaches their students to
                   independently solve automation problems and learn new technologies and methods like ladder logic LAD,
                   STL, FBD, timers, counters, simulators, digital and analog I/O, PID control, state machines and many
-                  more. In this unit, three projects were due. The second project was given by our professors. It consists of a
+                  more. In this unit, three projects were due. The second project was given by our professors. It
+                  consists of a
                   given gantry apparatus that had to fulfill a certain task. The report (in English) can be read at the
                   following link:
                 </p>
