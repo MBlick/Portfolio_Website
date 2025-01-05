@@ -5,7 +5,7 @@
       <div class="col-sm ps-3 ps-lg-5 pe-3 pe-lg-5 pe-lg-0">
         <h1 class="title_about text-start fw-bold">ABOUT</h1>
         <p class="text_about text-start pb-10">
-          I'm an electrical planner EFZ currently studiyng Electrical
+          I'm an electrical planner EFZ currently studying Electrical
           Engineering and Information Technology in my seventh semester at Lucerne
           University of Applied Sciences and Arts in Horw.
         </p>
