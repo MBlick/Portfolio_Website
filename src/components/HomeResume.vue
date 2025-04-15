@@ -15,10 +15,10 @@
                     <div class="card border-0 shadow">
                       <div class="card-body p-xl-4">
                         <h2 class="card-title mb-2">Bachelor FH</h2>
-                        <h6 class="card-subtitle text-secondary mb-3">Sep 2021 - Jul 2025</h6>
+                        <h6 class="card-subtitle text-secondary mb-3">Sep 2021 - Jun 2025</h6>
                         <p class="card-text m-0">EEIT, HSLU, Horw</p>
                         <p class="card-text m-0">Expected graduation: July 2025</p>
-                        <p class="card-text m-0">Dual Specialization:</p>
+                        <p class="card-text m-0">Dual Specialization in:</p>
                         <p class="card-text m-0">1) Mechatronics/Automation/Robotics</p>
                         <p class="card-text m-0">2) Energy and drive systems</p>
                       </div>
@@ -34,7 +34,7 @@
                     <div class="card border-0 shadow">
                       <div class="card-body p-xl-4">
                         <h2 class="card-title mb-2">AMZ Racing</h2>
-                        <h6 class="card-subtitle text-secondary mb-3">Sep 2024 - now</h6>
+                        <h6 class="card-subtitle text-secondary mb-3">Sep 2024 - Sep 2025</h6>
                         <p class="card-text m-0">Focus Student</p>
                         <p class="card-text m-0">Work package: LV-AMS & LV-Supply</p>
                         <p class="card-text m-0">(as my industrial work and bachelors thesis)</p>
@@ -51,7 +51,7 @@
                     <div class="card border-0 shadow">
                       <div class="card-body p-xl-4">
                         <h2 class="card-title mb-2">Working Student</h2>
-                        <h6 class="card-subtitle text-secondary mb-3">Aug 2024 - now</h6>
+                        <h6 class="card-subtitle text-secondary mb-3">Aug 2024 - Jun 2025</h6>
                         <p class="card-text m-0">Autcomp Automation AG, Stansstad, 50 %</p>
                       </div>
                     </div>
@@ -67,7 +67,7 @@
                       <div class="card-body p-xl-4">
                         <h2 class="card-title mb-2">Semester Abroad</h2>
                         <h6 class="card-subtitle text-secondary mb-3">Feb 2024 - Jun 2024</h6>
-                        <p class="card-text m-0">Murdoch University, Perth Australia</p>
+                        <p class="card-text m-0">EEIT, Murdoch University, Perth Australia</p>
                       </div>
                     </div>
                   </div>
@@ -82,7 +82,7 @@
                       <div class="card-body p-xl-4">
                         <h2 class="card-title mb-2">Voluntary Work</h2>
                         <h6 class="card-subtitle text-secondary mb-3">Nov 2023 - Feb 2024</h6>
-                        <p class="card-text m-0">Repair Café, Bourbaki Lucerne</p>
+                        <p class="card-text m-0">Volunteer, Repair Café, Bourbaki Lucerne</p>
                       </div>
                     </div>
                   </div>
@@ -156,7 +156,7 @@
                       <div class="card-body p-xl-4">
                         <h2 class="card-title mb-2">Electrical Planner EFZ</h2>
                         <h6 class="card-subtitle text-secondary mb-3">Jul 2018 - Jul 2020</h6>
-                        <p class="card-text m-0">Network 41 AG, Sursee, 100 %</p>
+                        <p class="card-text m-0">Network 41 AG, Sursee</p>
                       </div>
                     </div>
                   </div>
@@ -171,7 +171,7 @@
                       <div class="card-body p-xl-4">
                         <h2 class="card-title mb-2">Apprenticeship</h2>
                         <h6 class="card-subtitle text-secondary mb-3">Aug 2014 - Jul 2018</h6>
-                        <p class="card-text m-0">Electrical Planer, Network
+                        <p class="card-text m-0">Electrical Planner, Network
                           41 AG, Sursee</p>
                       </div>
                     </div>

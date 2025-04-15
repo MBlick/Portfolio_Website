@@ -2,9 +2,28 @@
   <div id="projects" class="projects p-3 pt-lg-5 p-lg-4 container-fluid" data-bs-target="#projects">
     <h1 class="title_projects fw-bold max-auto">PROJECTS</h1>
     <div class="row pt-3 pt-lg-5 pb-3 pb-lg-5">
+      <!-- WORK PROJECTS -->
       <div class="col-sm">
         <h1 class="pb-3 pb-lg-5 pt-5 pt-lg-0 fw-bold">WORK</h1>
         <div class="accordion" id="accordionJob">
+          <!--  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingJAut">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseJAut" aria-expanded="true" aria-controls="collapseJAut">
+                <strong>Junior Automation Engineer</strong>
+              </button>
+            </h2>
+            <div id="collapseJAut" class="accordion-collapse collapse" aria-labelledby="headingJAut"
+              data-bs-parent="#accordionJob">
+              <div class="accordion-body text-start">
+                <p class="">
+                  While in my last two semesters of my bachelor's, I chose to switch to a part-time study model. Thereby, working at Autcomp Automation AG in Stansstad as a junior automation engineer to support the team in their pursuit. There, I received the chance to work on the renewal of the ventilation system of the Gotthard Road Tunnel. Where my main task was to multiply and extend the written code in Siemens TIA and adapt several concepts from a given project documentation. Furthermore, I was involved in various other projects and also in creating schemes for them. A skill which I could take over from my apprenticeship.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--  -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingELP">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -16,10 +35,7 @@
               data-bs-parent="#accordionJob">
               <div class="accordion-body text-start">
                 <p class="">
-                  As an electrical planner, my job was it to create electrical plans, schemes and tenders for the
-                  electricians on the construction site. In my two-year period after the apprenticeship at Network 41 AG
-                  and in the summer jobs at HT-Infraserv AG, I've worked on several interesting projects. A few of them
-                  can be seen in the following list:
+                  As an electrical planner, my job was it to create electrical plans, schemes, and tenders for the electricians on the construction site. In my two-year period after the apprenticeship at Network 41 AG and in the summer jobs at HT-Infraserv AG, I've worked on several interesting projects. A few of them can be seen in the following list:
                 </p>
                 <a href="https://www.google.ch/maps/place/Hochstrasser+AG+Kaffeer%C3%B6sterei/@47.0488536,8.2694026,106m/data=!3m1!1e3!4m6!3m5!1s0x478ffb3911826457:0x91fc009c32b76518!8m2!3d47.0489444!4d8.2696281!16s%2Fg%2F1td1259t?entry=ttu"
                   target="_blank">Hochstrasser AG - New coffee roastery in Lucerne</a><br />
@@ -42,13 +58,7 @@
               data-bs-parent="#accordionJob">
               <div class="accordion-body text-start">
                 <p class="">
-                  Network 41 AG, the company where I made my apprenticeship and worked for two years, offers engineering
-                  services for Swisscom AG and their fiber to the street (FTTS) cable internet rollout in all of
-                  Switzerland. The plan is to shorten the distance of the copper wire by bringing fiber optic cables to
-                  the street in front of our houses. There, inside a shaft, the light signals get converted, with
-                  so-called mCANs, into the electrical copper signal. I was fortunate to receive several further
-                  trainings to work within the Swisscom project management tool. Followed by that, I then became a
-                  technical project manager for some of the villages where this rollout took place.
+                  Network 41 AG, the company where I made my apprenticeship and worked for two years, offers engineering services for Swisscom AG and their fiber to the street (FTTS) rollout in all of Switzerland. The strategy is to shorten the distance of the copper wire by bringing fiber optic cables to the porch of our houses. There, inside a shaft, the light signals get converted, with so-called mCANs, into an electrical copper signal. I was fortunate to receive several further trainings to work within the Swisscom project management environment. Followed by that, I then became a project manager for two small villages where this rollout took place.
                 </p>
               </div>
             </div>
@@ -65,30 +75,26 @@
               data-bs-parent="#accordionJob">
               <div class="accordion-body text-start">
                 <p class="">
-                  Next to the before mentioned FTTS rollout, Network 41 AG also provides the Swisscom AG with
-                  engineering services regarding their mobile expansion. When a new location for a mobile antenna has
-                  been set, there are many technical conditions that need to be fulfilled. One of them is the electrical
-                  power supply. For that reason, I was able to visit several locations in the German-speaking part of
-                  Switzerland where I had to do on-site clarifications and plan out the electrical power supply to fit
-                  the needs of the mobile antenna.
+                  Similarly to the FTTS rollout, Network 41 AG also provides engineering services to the Swisscom AG regarding their mobile expansion. If a new location for a mobile antenna has been set, there are many technical conditions that need to be met. One of them is the electrical supply. For that reason, I was able to visit several locations in Switzerland where I had to do on-site clarifications and plan out the electrical power supply to fit the needs of these mobile antennas.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- paragraph with university accordion -->
+      <!-- UNIVERSITY PROJECTS -->
       <div class="col-sm">
         <h1 class="pb-3 pb-lg-5 pt-5 pt-lg-0 fw-bold">UNIVERSITY</h1>
         <div class="accordion" id="accordionUniversity">
+          <!--  -->
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingPREN1">
+            <h2 class="accordion-header" id="headingPREN2">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsePREN1" aria-expanded="true" aria-controls="collapsePREN1">
-                <strong>Project Unit 1 - Concept: Gravel Cleaner Robot</strong>
+                data-bs-target="#collapsePREN2" aria-expanded="false" aria-controls="collapsePREN2">
+                <strong>Project Unit - Gravel Cleaner Robot</strong>
               </button>
             </h2>
-            <div id="collapsePREN1" class="accordion-collapse collapse" aria-labelledby="headingPREN1"
+            <div id="collapsePREN2" class="accordion-collapse collapse" aria-labelledby="headingPREN2"
               data-bs-parent="#accordionUniversity">
               <div class="accordion-body text-start">
                 <p class="">
@@ -99,10 +105,60 @@
                   The project was approached in a team of seven members which interdisciplinary consisted of the three
                   departments electrical engineering, mechanical engineering and software engineering. The report (in
                   German) can be read at the following link:
+                  This project unit builds up on the previous one where the concept has been established. The goal was
+                  to build and realize said concept. Realizing a concept is always harder than expected. Still, our team
+                  managed to overcome all the hurdles and even won the final contest, where all 26 teams competed
+                  against each other. Furthermore, it has to be noted that our team has achieved the best grade, as the
+                  only team, in both project units. As before, the report (in German) can be read at the following link:
                 </p>
                 <button @click="
                   openFileInNewWindow(
                     'https://drive.google.com/file/d/18JhXxEUv2N6iaZRuUeWObu1FcYQFXUQx/view?usp=drive_link'
+                  )
+                  " type="button" class="btn btn-primary" style="
+                    background-color: #eb5e28;
+                    color: white;
+                    border: #eb5e28;
+                  ">
+                  Report 1 - Concept
+                </button>
+                <button @click="
+                  openFileInNewWindow(
+                    'https://drive.google.com/file/d/1EfRihjsRAqfgzEjhbJF00olKRSYwLgvi/view?usp=drive_link'
+                  )
+                  " type="button" class="btn btn-primary" style="
+                    background-color: #eb5e28;
+                    color: white;
+                    border: #eb5e28;
+                  ">
+                  Report 2 - Realization
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingGantryApparatus">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseGantryApparatus" aria-expanded="false" aria-controls="collapseGantryApparatus">
+                <strong>PLC Systems - Gantry Apparatus</strong>
+              </button>
+            </h2>
+            <div id="collapseGantryApparatus" class="accordion-collapse collapse"
+              aria-labelledby="headingGantryApparatus" data-bs-parent="#accordionUniversity">
+              <div class="accordion-body text-start">
+                <p class="">
+                  This voluntary unit has been done in my semester abroad in Australia. It teaches their students to
+                  independently solve automation problems and learn new technologies and methods like ladder logic LAD,
+                  STL, FBD, timers, counters, digital and analog I/O, PID control, state machines and many
+                  more. In this unit, three projects were due. The second project was given by our professors. It
+                  consists of a
+                  given gantry apparatus that had to fulfill a certain task. The report (in English) can be read at the
+                  following link:
+                </p>
+                <button @click="
+                  openFileInNewWindow(
+                    'https://drive.google.com/file/d/1Kc4IYmSTDgHl72YuzYovUBOQalbs3SKL/view?usp=sharing'
                   )
                   " type="button" class="btn btn-primary" style="
                     background-color: #eb5e28;
@@ -116,25 +172,23 @@
           </div>
           <!--  -->
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingPREN2">
+            <h2 class="accordion-header" id="headingFunctionGenerator">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsePREN2" aria-expanded="false" aria-controls="collapsePREN2">
-                <strong>Project Unit 2 - Realization: Gravel Cleaner Robot</strong>
+                data-bs-target="#collapseFunctionGenerator" aria-expanded="false"
+                aria-controls="collapseFunctionGenerator">
+                <strong>PLC Systems - Function Generator</strong>
               </button>
             </h2>
-            <div id="collapsePREN2" class="accordion-collapse collapse" aria-labelledby="headingPREN2"
-              data-bs-parent="#accordionUniversity">
+            <div id="collapseFunctionGenerator" class="accordion-collapse collapse"
+              aria-labelledby="headingFunctionGenerator" data-bs-parent="#accordionUniversity">
               <div class="accordion-body text-start">
                 <p class="">
-                  This project unit builds up on the previous one where the concept has been established. The goal was
-                  to build and realize said concept. Realizing a concept is always harder than expected. Still, our team
-                  managed to overcome all the hurdles and even won the final contest, where all 26 teams competed
-                  against each other. Furthermore, it has to be noted that our team has achieved the best grade, as the
-                  only team, in both project units. As before, the report (in German) can be read at the following link:
+                  The third project of PLC Systems was open for ideas and my team created a
+                  function generator using a Siemens PLC. The report (in English) can be read at the following link:
                 </p>
                 <button @click="
                   openFileInNewWindow(
-                    'https://drive.google.com/file/d/1EfRihjsRAqfgzEjhbJF00olKRSYwLgvi/view?usp=drive_link'
+                    'https://drive.google.com/file/d/1HcmCtn82CRH5fLdMpNZm8o2Sd7WLdEeA/view?usp=drive_link'
                   )
                   " type="button" class="btn btn-primary" style="
                     background-color: #eb5e28;
@@ -210,76 +264,13 @@
               </div>
             </div>
           </div>
-          <!--  -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingGantryApparatus">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseGantryApparatus" aria-expanded="false" aria-controls="collapseGantryApparatus">
-                <strong>PLC Systems - Gantry Apparatus</strong>
-              </button>
-            </h2>
-            <div id="collapseGantryApparatus" class="accordion-collapse collapse"
-              aria-labelledby="headingGantryApparatus" data-bs-parent="#accordionUniversity">
-              <div class="accordion-body text-start">
-                <p class="">
-                  This voluntary unit has been done in my semester abroad in Australia. It teaches their students to
-                  independently solve automation problems and learn new technologies and methods like ladder logic LAD,
-                  STL, FBD, timers, counters, simulators, digital and analog I/O, PID control, state machines and many
-                  more. In this unit, three projects were due. The second project was given by our professors. It
-                  consists of a
-                  given gantry apparatus that had to fulfill a certain task. The report (in English) can be read at the
-                  following link:
-                </p>
-                <button @click="
-                  openFileInNewWindow(
-                    'https://drive.google.com/file/d/1Kc4IYmSTDgHl72YuzYovUBOQalbs3SKL/view?usp=sharing'
-                  )
-                  " type="button" class="btn btn-primary" style="
-                    background-color: #eb5e28;
-                    color: white;
-                    border: #eb5e28;
-                  ">
-                  Report
-                </button>
-              </div>
-            </div>
-          </div>
-          <!--  -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFunctionGenerator">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFunctionGenerator" aria-expanded="false"
-                aria-controls="collapseFunctionGenerator">
-                <strong>PLC Systems - Function Generator</strong>
-              </button>
-            </h2>
-            <div id="collapseFunctionGenerator" class="accordion-collapse collapse"
-              aria-labelledby="headingFunctionGenerator" data-bs-parent="#accordionUniversity">
-              <div class="accordion-body text-start">
-                <p class="">
-                  The third project of PLC Systems was open for ideas and my team created a
-                  function generator using a Siemens PLC. The report (in English) can be read at the following link:
-                </p>
-                <button @click="
-                  openFileInNewWindow(
-                    'https://drive.google.com/file/d/1HcmCtn82CRH5fLdMpNZm8o2Sd7WLdEeA/view?usp=drive_link'
-                  )
-                  " type="button" class="btn btn-primary" style="
-                    background-color: #eb5e28;
-                    color: white;
-                    border: #eb5e28;
-                  ">
-                  Report
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-      <!-- paragraph with private accordion -->
+      <!-- PRIVATE PROJECTS -->
       <div class="col-sm">
         <h1 class="pt-5 pt-lg-0 pb-3 pb-lg-5 fw-bold">PRIVATE</h1>
         <div class="accordion" id="accordionPrivate">
+          <!--  -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPortfolio">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -355,7 +346,7 @@
               data-bs-parent="#accordionPrivate">
               <div class="accordion-body text-start">
                 <p class="">
-                  Whilst in the middle of the corona time (summer 2020), I got bored and built a desk PC. The clue is,
+                  Whilst in the middle of the corona pandemic (summer 2020), I got bored and built a desk PC. The clue is,
                   that all computer hardware is completely hidden inside the desk and not visible at first glance. For
                   that reason, I had to build the desk from scratch. Furthermore, the issue of cooling had to be
                   addressed. Because of the minimal height of 9 cm inside the desk, no tower cooler could be installed.
