@@ -7,6 +7,22 @@
         <div class="row justify-content-center">
           <div class="col-10 col-md-12 col-xl-10 col-xxl-9">
             <ul class="timeline">
+              <li class="timeline-item left">
+                <div class="timeline-body">
+                  <div class="timeline-meta">
+                  </div>
+                  <div class="timeline-content timeline-indicator">
+                    <div class="card border-0 shadow">
+                      <div class="card-body p-xl-4">
+                        <h2 class="card-title mb-2">AMZ Racing</h2>
+                        <h6 class="card-subtitle text-secondary mb-3">Sep 2025 - now</h6>
+                        <p class="card-text m-0">Freelancer</p>
+                        <p class="card-text m-0">Work package: Computer Box Driverless</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
               <li class="timeline-item right">
                 <div class="timeline-body">
                   <div class="timeline-meta">
@@ -14,13 +30,11 @@
                   <div class="timeline-content timeline-indicator">
                     <div class="card border-0 shadow">
                       <div class="card-body p-xl-4">
-                        <h2 class="card-title mb-2">Bachelor FH</h2>
-                        <h6 class="card-subtitle text-secondary mb-3">Sep 2021 - Jun 2025</h6>
-                        <p class="card-text m-0">EEIT, HSLU, Horw</p>
-                        <p class="card-text m-0">Expected graduation: July 2025</p>
-                        <p class="card-text m-0">Dual Specialization in:</p>
-                        <p class="card-text m-0">1) Mechatronics/Automation/Robotics</p>
-                        <p class="card-text m-0">2) Energy and drive systems</p>
+                        <h2 class="card-title mb-2">AMZ Racing</h2>
+                        <h6 class="card-subtitle text-secondary mb-3">Sep 2024 - Aug 2025</h6>
+                        <p class="card-text m-0">Focus Student</p>
+                        <p class="card-text m-0">Work package: LV BMS & LV Supply</p>
+                        <a href="https://www.amzracing.ch/en/cars/2025" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Website AMZ Racing</a>
                       </div>
                     </div>
                   </div>
@@ -33,11 +47,14 @@
                   <div class="timeline-content timeline-indicator">
                     <div class="card border-0 shadow">
                       <div class="card-body p-xl-4">
-                        <h2 class="card-title mb-2">AMZ Racing</h2>
-                        <h6 class="card-subtitle text-secondary mb-3">Sep 2024 - Sep 2025</h6>
-                        <p class="card-text m-0">Focus Student</p>
-                        <p class="card-text m-0">Work package: LV-AMS & LV-Supply</p>
-                        <p class="card-text m-0">(as my industrial work and bachelors thesis)</p>
+                        <h2 class="card-title mb-2">Bachelor FH</h2>
+                        <h6 class="card-subtitle text-secondary mb-3">Sep 2021 - Jul 2025</h6>
+                        <p class="card-text m-0">Electrical Engineering & Information Technology, HSLU, Horw</p>
+                        <p class="card-text m-0">Bachelor's thesis: AMZ Racing</p>
+                        <p class="card-text m-0">Double specialization:</p>
+                        <p class="card-text m-0">Power electronics and drive systems</p>
+                        <p class="card-text m-0">Mechatronics / Automation / Robotics</p>
+                        <a href="https://www.hslu.ch/de-ch/technik-architektur/studium/bachelor/elektrotechnik-und-informationstechnologie/" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Website HSLU EEIT</a>
                       </div>
                     </div>
                   </div>
@@ -50,9 +67,10 @@
                   <div class="timeline-content timeline-indicator">
                     <div class="card border-0 shadow">
                       <div class="card-body p-xl-4">
-                        <h2 class="card-title mb-2">Working Student</h2>
-                        <h6 class="card-subtitle text-secondary mb-3">Aug 2024 - Jun 2025</h6>
-                        <p class="card-text m-0">Autcomp Automation AG, Stansstad, 50 %</p>
+                        <h2 class="card-title mb-2">Junior Automation Engineer</h2>
+                        <h6 class="card-subtitle text-secondary mb-3">Aug 2024 - Apr 2025</h6>
+                        <p class="card-text m-0">Autcomp Automation AG, Stansstad, 40 %</p>
+                        <a href="https://autcomp.ch/" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Website Autcomp AG</a>
                       </div>
                     </div>
                   </div>
@@ -67,7 +85,8 @@
                       <div class="card-body p-xl-4">
                         <h2 class="card-title mb-2">Semester Abroad</h2>
                         <h6 class="card-subtitle text-secondary mb-3">Feb 2024 - Jun 2024</h6>
-                        <p class="card-text m-0">EEIT, Murdoch University, Perth Australia</p>
+                        <p class="card-text m-0">Electrical Engineering & Information Technology, Murdoch University, Perth Australia</p>
+                        <a href="https://www.murdoch.edu.au/" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Website Murdoch University</a>
                       </div>
                     </div>
                   </div>
@@ -81,8 +100,9 @@
                     <div class="card border-0 shadow">
                       <div class="card-body p-xl-4">
                         <h2 class="card-title mb-2">Voluntary Work</h2>
-                        <h6 class="card-subtitle text-secondary mb-3">Nov 2023 - Feb 2024</h6>
+                        <h6 class="card-subtitle text-secondary mb-3">Nov 2023 - now</h6>
                         <p class="card-text m-0">Volunteer, Repair Café, Bourbaki Lucerne</p>
+                        <a href="https://www.repair-cafe-luzern.ch/" class="text-decoration-none" target="_blank" rel="noopener noreferrer">Website Repair Café</a>
                       </div>
                     </div>
                   </div>
@@ -127,6 +147,7 @@
                       <div class="card-body p-xl-4">
                         <h2 class="card-title mb-2">Start Bachelor</h2>
                         <h6 class="card-subtitle text-secondary mb-3">Sep 2021</h6>
+                        <p class="card-text m-0">Electrical Engineering & Information Technology, HSLU, Horw</p>
                       </div>
                     </div>
                   </div>

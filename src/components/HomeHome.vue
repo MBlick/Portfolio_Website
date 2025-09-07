@@ -32,7 +32,7 @@
           <h1 class="text_name pt-10 fw-bold">MERLIN</h1>
           <h1 class="text_name fw-bold">BLICKISDORF</h1>
           <p class="text_student">
-            Student in Electrical Engineering and Information Technology
+            Bachelor in Electrical Engineering and Information Technology
           </p>
         </div>
         <div class="row">

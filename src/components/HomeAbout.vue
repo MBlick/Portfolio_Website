@@ -5,9 +5,15 @@
       <div class="col-sm ps-3 ps-lg-5 pe-3 pe-lg-5 pe-lg-0">
         <h1 class="title_about text-start fw-bold">ABOUT</h1>
         <p class="text_about text-start pb-10">
-          I am an electrical planner EFZ currently studying Electrical
-          Engineering and Information Technology in my last semester at Lucerne
-          University of Applied Sciences and Arts in Horw.
+          Hi, I'm Merlin, a recent graduate in Electrical Engineering and Information Technology 
+          from the Lucerne University of Applied Sciences and Arts 
+          in Horw, where I also contributed to the AMZ-Racing project of 2025 for my bachelor's thesis.
+        </p>
+        <p class="text_about text-start pb-10">
+          This portfolio is a showcase of my journey as an engineer,
+          from my studies to my bachelor's thesis at AMZ Racing and beyond. 
+          Here, you'll find a timeline of my academic and professional milestones, 
+          with a strong focus on the projects that shaped my skills and passion for engineering.
         </p>
       </div>
       <!--  -->
@@ -43,7 +49,7 @@ export default {
 }
 
 .text_about {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .image_me {
